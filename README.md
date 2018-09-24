@@ -8,6 +8,7 @@ This experiment will teach you how to build your own serverless ChatBot and use 
 
 ## Prerequisites
 > Sign-in an AWS account, and make sure you have select N.Virginia region.
+
 > Download source file from this Github.
 
 ## Lab tutorial
