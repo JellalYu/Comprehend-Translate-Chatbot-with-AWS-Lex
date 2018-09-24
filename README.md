@@ -85,7 +85,7 @@ If you cannot find this role, please choose **Create a custom role**.
         }
 7. Click **Allow**.
 8. Go back to create lambda function page and choose the role you just created and click **Create function**.
-9. Paste the [lambda script](https://github.com/JellalYu/Building-AWS-Comprehend-Lex-ChatBot-/blob/master/chatbot.py) from this Github.
+9. Paste the [**lambda_function**](https://github.com/JellalYu/Create-a-Comprehend-Translate-Chatbot-in-Lex/blob/master/lambda_function.py) script from this Github.
 
 ![2_5.png](/img/2_5.png)
 
