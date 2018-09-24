@@ -14,7 +14,9 @@ This experiment will teach you how to build your own serverless ChatBot and use 
 ## Lab tutorial
 This lab has two part, one for lambda creating and one for Lex Chatbot building.
 
-### Create a lambda function
+### Create a Lambda function
+Let's set the Lambda function first. This function is set to lex, which will concatenate AWS comprehend and AWS Translate to provide more versatile functionality for lex.
+
 1.  Open the Lambda in the console.
 2.  Choose **Create Function**.
 3.  Click **Author from scratch**.
@@ -91,6 +93,8 @@ If you cannot find this role, please choose **Create a custom role**.
 ![2_5.png](/img/2_5.png)
 
 ### Set up Lex Chatbot
+It's very easy to set up a chatbot in the console of AWS, you just need to set the keywords and corresponding responses, but we'll use lambda functions as backend here.
+
 1. In AWS console, select Lex service.
 2. Click **create** to create a new bot.
 3. Click **Custom bot** and set following content:
